@@ -15,27 +15,27 @@ int main()
 
     {
         // 2 questao
-        float d = 100;
+        float d = 576.58;
 
         if (d <= 100.00)
         {
-            printf("%s\n", "1% de desconto");
+            printf("%.2f  --> 1 por cento de desconto.\n", (d * 0.99));
         }
 
         else if (d <= 500.00)
 
         {
-            printf("%s\n", "5% de desconto");
+            printf("%.2f --> 5 por cento de desconto\n", (d * 0.95));
         }
         else
         {
-            printf("%s\n", "10% de desconto");
+            printf("%.2f --> 10 por cento de desconto\n", (d * 0.90));
         }
     }
 
     {
         // 3 questao
-        int nota = 6;
+        int nota = 5;
 
         switch (nota)
         {
