@@ -3,21 +3,21 @@
 int main()
 {
     char x;
-    printf("Digite um número, caracter ou caracter especial: ");
+    printf("escreva um  caracter,caracter especial ou numero: ");
     scanf("%c", &x);
-    printf("%i, esta é a representação de acordo com a tabela ASCII", x);
+    printf("%i, esta é a representacao em relacao com a tabela ASCII", x);
 
     if ((x > 96 && x < 123) || (x > 64 && x < 91))
     {
-        printf(", logo %c é um caracter\n", (int)x);
+        printf("%c é um caracter\n", (int)x);
     }
     else if (x > 47 && x < 58)
     {
-        printf(", logo %c é um número\n", x);
+        printf("%c é um número\n", x);
     }
     else
     {
-        printf(", logo %c é um caracter especial\n", x);
+        printf("%c é um caracter especial\n", x);
     }
 
     return 0;
